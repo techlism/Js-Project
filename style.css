@@ -1,0 +1,99 @@
+/* Home Page */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #4158D0;
+    background-image: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: -moz-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: -o-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+    background-size: cover;
+    border: none;
+    overflow:auto;
+    background-repeat:repeat;
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    height: 95vh;
+    width: auto;
+}
+.main{
+    width: auto;
+    margin-top: 0;
+}
+.welcome-text{
+    font-family: 'Source Code Pro',monospace;
+    font-size: 9rem;
+    background: -webkit-linear-gradient(133deg, #c8cef4 0%, #ffedff 46%, #f8ecd4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;      
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.sub{ /*div */
+    text-align: left;
+    color: #fff;
+}
+.sub-greet{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    padding-left: 7.15%;
+    margin-bottom: 15px;
+}
+.sub-msg{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:2px;
+    margin-bottom: 15px;
+}
+.btnStart{
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    font-weight: 400;
+    border-radius: 6px;
+    font-size: 25px;
+    border: none;
+    font-family:'Montserrat',sans-serif, Helvetica;
+    background-color: #000000;
+    color:#fff;
+    position: sticky;
+}
+span{
+    color: #000000;
+    font-size: 20px;   
+}
+a{
+    text-decoration: none;
+    color: #00ef0c;
+    text-decoration: underline;
+}
+.footer{
+    background-color: #000000f8;
+    margin-top: 55px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #dadada;
+    text-align: center;
+}
+
+.footer-href{
+    font-size: 16px;
+    color: #fff;
+}
+.footer-text{
+    color: white;
+    font-size: 16px;
+    font-family: 'Prompt',sans-serif;
+}

@@ -1,0 +1,83 @@
+/* Menu (II) */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: #4158D0;
+    background-image: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: -moz-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: -o-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+    background-repeat:repeat;
+    background-size: cover;
+    border: none;
+    overflow: auto;
+}
+.divs {
+    display: grid;
+    grid-template-columns: repeat(3,0.4fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: -10px;
+    justify-items: center;
+    align-items: center;
+    height: 70vh;
+    width: auto;
+}
+  
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width:22vw ;
+    height: 25vh;
+    margin: 0;
+}
+ 
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 4rem;  
+    height: auto;
+    width: auto;
+    background: -webkit-linear-gradient(#d6f5ff, #effdf8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 8vh;    
+}
+.topic-name{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.topic-black{
+    font-weight: 600;
+    color: #fff;
+    background-color: black;    
+}
+.footer{
+    background-color: #000000f8;
+    margin-top: 155px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #dadada;
+    text-align: center;
+    width: 100%;
+}
+.footer-href{
+    font-size: 16px;
+}
